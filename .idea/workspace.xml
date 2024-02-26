@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e707fcd-a97b-46d7-843e-48be192b79ef" name="Changes" comment="This is the HW#4 Collaboration.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4A.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4B.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4B.py" afterDir="false" />
-    </list>
+    <list default="true" id="7e707fcd-a97b-46d7-843e-48be192b79ef" name="Changes" comment="This is the HW#4 Collaboration." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708832490270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This is the HW#4 Collaboration.">
+      <option name="closed" value="true" />
+      <created>1708977343231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708977343231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +113,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
