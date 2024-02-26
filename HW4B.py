@@ -4,9 +4,27 @@ import matplotlib.pyplot as plt
 
 # Define the equations
 def equation1(x):
+    """
+       Define the first equation: x - 3 * cos(x) = 0.
+
+       Parameters:
+       x (float): The variable of the equation.
+
+       Returns:
+       float: The value of the equation at x.
+    """
     return x - 3 * np.cos(x)
 
 def equation2(x):
+    """
+       Define the second equation: cos(2 * x) * x^3 = 0.
+
+       Parameters:
+       x (float): The variable of the equation.
+
+       Returns:
+       float: The value of the equation at x.
+    """
     return np.cos(2 * x) * x**3
 
 # Use fsolve to find the roots

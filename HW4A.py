@@ -3,10 +3,32 @@ import matplotlib.pyplot as plt
 
 # Define the normal distribution probability density function (pdf)
 def normal_pdf(x, mean, std_dev):
+    """
+        Compute the probability density function (PDF) of a normal distribution.
+
+        Parameters:
+        x (float or list): The value(s) at which to evaluate the PDF.
+        mean (float): The mean of the normal distribution.
+        std_dev (float): The standard deviation of the normal distribution.
+
+        Returns:
+        float or list: The PDF value(s) corresponding to the input value(s).
+    """
     return (1 / (std_dev * math.sqrt(2 * math.pi))) * math.exp(-(x - mean)**2 / (2 * std_dev**2))
 
 # Define the cumulative distribution function (cdf) for normal distribution
 def normal_cdf(x, mean, std_dev):
+    """
+        Compute the cumulative distribution function (CDF) of a normal distribution.
+
+        Parameters:
+        x (float): The value at which to evaluate the CDF.
+        mean (float): The mean of the normal distribution.
+        std_dev (float): The standard deviation of the normal distribution.
+
+        Returns:
+        float: The CDF value corresponding to the input value.
+    """
     return 0.5 * (1 + math.erf((x - mean) / (std_dev * math.sqrt(2))))
 
 # Calculate the probabilities
